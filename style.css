@@ -77,11 +77,13 @@ img {
 
 
 @media all and (max-width: 419px){
-  
-  body{
-   margin: 0;
-  }
 
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
   h3{
     margin: 0;
   }
@@ -97,7 +99,6 @@ img {
   
   .row{
     width: 100vw;
-    padding-top: 1px;
     padding-bottom: 10px;
   }
   
@@ -105,10 +106,7 @@ img {
   #lezioni .row>.right{
     width:100%;
     float: none;
-  }
-
-  #lezioni .row>.left{
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
 
   #steps{
@@ -120,10 +118,7 @@ img {
   #steps .row>.right {
     float: none;
     width: 100%;
-  }
-
-  #steps .row .central{
-    margin: 20px 0;
+    margin-top: 20px;
   }
 
   #why{
@@ -144,8 +139,8 @@ img {
   #why .row img {
     background-color: #428bca;
     border-radius: 50%;
-    padding: 30px;
-    height: 70px;
+    padding: 20px;
+    height: 100px;
   }
-  
+
 }
